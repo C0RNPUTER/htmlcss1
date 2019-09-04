@@ -1,0 +1,74 @@
+@charset "utf-8";
+.footbar{
+    padding-bottom: 50px;
+}
+.footback{
+    width: 998px;
+    margin: 100px 172px 0;
+    border-left: 1px solid #ccc;
+    border-top: 2px solid #3c4790;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #3c4790;
+}
+.foottitle, .footbottom{
+    height: 38px;
+    padding: 0 19px 0 16px;
+    line-height: 40px;
+    color: #333;
+}
+.foottitle{
+    border-bottom: 1px solid #ccc;
+    color : black;
+    font-family: "Anton";
+    font-style: italic;
+    font-size: 20px;
+}
+.footcontent{
+    line-height: 38px;
+    padding-top: 21px;
+    padding-bottom: 23px;
+    display: block;
+    height: 201px;
+}
+.footcontentbox{
+    width: 139px;
+    height: 200px;
+    padding-left: 25px;
+    margin-right: 0px;
+    border-left: 1px solid #f1f1f1;
+    display: block;
+    font-size: 11px;
+    color: #555555;
+    float: left;
+}
+.footcontentbox ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footcontentbox ul li{
+    font-size: 11px;
+    display: block;
+    line-height: 14px;
+    padding-top: 5px;
+}
+.footcontentbox ul li:first-child{
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 12px;
+    margin-bottom: 4px; 
+    padding-top: 0px;
+    text-decoration: underline;
+}
+.footcontentbox ul li a{
+    text-decoration: none;
+}
+.footcontentbox ul li a:hover{
+    text-decoration: underline; 
+}
+.footbottom{
+    border-top: 1px solid #ccc;
+    text-align: end;
+    color: rgba(128, 128, 128, 0.596);
+}
